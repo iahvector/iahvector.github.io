@@ -1,4 +1,6 @@
+/* latin-ext */
 html {
+    font-family: 'Source Code Pro', monospace;
     font-size:1.1em;
 }
 
@@ -6,6 +8,11 @@ header {
     margin-top: 2em;
 }
 
+.header {
+    font-family: 'Source Code Pro', monospace !important;
+}
+
 section {
+    font-family: 'Source Code Pro', monospace;
     margin-top: 1em;
 }
