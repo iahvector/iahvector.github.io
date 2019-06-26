@@ -16,3 +16,21 @@ section {
     font-family: 'Source Code Pro', monospace;
     margin-top: 1em;
 }
+
+.paragraph {
+    text-align: justify;
+}
+
+.links {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.link-header {
+    display: flex;
+    flex-flow: row wrap;
+}
