@@ -1,5 +1,10 @@
 function generateEmail() {
-  const hostname = window.location.hostname
+  var hostname = window.location.hostname
+  if (hostname.startsWith('www')) {
+    parts = hostname.split('.')
+    parts.shift()
+    hostname = parts.join('.')
+  }
   return `i@${hostname}`
 }
 
