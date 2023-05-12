@@ -5,6 +5,9 @@ function generateEmail() {
     parts.shift()
     hostname = parts.join('.')
   }
+  if (hostname == null || hostname == "") {
+    hostname = "iahvector.com"
+  }
   return `i@${hostname}`
 }
 

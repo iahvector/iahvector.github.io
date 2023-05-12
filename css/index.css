@@ -1,36 +1,59 @@
-/* latin-ext */
 html {
-    font-family: 'Source Code Pro', monospace;
-    font-size:1.1em;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
+    font-family: 'Ubuntu', sans-serif;
+    font-size:1.1rem;
+    background-color: rgb(8, 8, 47);
 }
 
-header {
-    margin-top: 2em;
+body {
+    margin: 0px;
+    padding: 0px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
+    align-items: stretch;
 }
 
-.header {
-    font-family: 'Source Code Pro', monospace !important;
+#container {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    align-content: stretch;
+    align-items: stretch;
 }
 
-section {
-    font-family: 'Source Code Pro', monospace;
-    margin-top: 1em;
+#about {
+    margin: 5%;
+    font-size: 3rem;
+    flex-grow: 1;
 }
 
-.paragraph {
+#about-text {
     text-align: justify;
+    color: white;
+    font-weight: bold;
 }
 
-.links {
-    width: 100%;
+#links {
+    margin: 5%;
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-between;
-    padding-top: 8px;
-    padding-bottom: 8px;
+    align-items: stretch;
+    flex-shrink: 0;
+    color: white;
 }
 
-.link-header {
-    display: flex;
-    flex-flow: row wrap;
+.navlinkwrapper {
+    margin-right: 16px;
+    margin-bottom: 8px;
+}
+
+.navlink {
+    color: white;
+    text-decoration: none;
 }
