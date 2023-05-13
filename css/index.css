@@ -4,8 +4,8 @@ html {
     flex-direction: column;
     align-content: stretch;
     font-family: 'Ubuntu', sans-serif;
-    font-size:1.1rem;
     background-color: rgb(8, 8, 47);
+    font-size: calc(10px + 0.8vw);
 }
 
 body {
@@ -28,8 +28,7 @@ body {
 }
 
 #about {
-    margin: 5%;
-    font-size: 3rem;
+    margin: 5% 5% auto;
     flex-grow: 1;
 }
 
@@ -37,6 +36,8 @@ body {
     text-align: justify;
     color: white;
     font-weight: bold;
+    font-size: 2rem;
+    margin: 0px;
 }
 
 #links {
